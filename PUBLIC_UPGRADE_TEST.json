@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-10",
+  "from": "1.0.0",
+  "to": "1.0.1",
+  "used_published_previous_engine": true,
+  "old_engine_sha256": "7e5eaecc5b3378b5f413e0d6aeab6fa9bb8c4bbff9ecf04f781576fa355de491",
+  "new_engine_sha256": "fe0cf42313613738eb763523f1ba31b7698bcb842b9f1dba990075b78917274f",
+  "source": "Public GitHub latest manifest and release ZIP",
+  "downloaded_packages": 1,
+  "downloaded_bytes": 19626,
+  "game_update_pac_unchanged": true,
+  "synthetic_save_preserved": true,
+  "repeat_downloads": 0,
+  "new_engine_manifest_fetch": "PASS 1.0.1",
+  "original_base_requirements": "PASS",
+  "actual_game_launched": false
+}

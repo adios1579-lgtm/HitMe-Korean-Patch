@@ -36,3 +36,7 @@ py -3.11 -X utf8 build_release.py update --version 1.0.1 --notes "수정 사항"
 사용자가 제공한 Canvas3 자동업데이트 구현을 HitMe 전용 경로·허용 목록·앱 ID로 이식했습니다. Canvas3의 게임 데이터·세이브·아이콘 이행 코드·토큰은 포함하지 않습니다.
 
 정책 확인: [GitHub 릴리스 자산 제한](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases), [Noto 폰트 라이선스](https://github.com/google/fonts/blob/main/ofl/notosanskr/OFL.txt).
+
+## 공개 배포 경로 실증
+
+PUBLIC_UPGRADE_TEST.json: 공개1.0.0엔진으로공개1.0.1 manifest/ZIP을받아격리설치에적용,실제DLL교체·새엔진조회·본문PAC/합성세이브보존·재다운로드0 확인. 실제게임실행시험은아니다.
