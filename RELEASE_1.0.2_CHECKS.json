@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "archive_members": 7982,
+  "changed_members": [
+    "06歩鳥01.bin",
+    "06歩鳥02.bin",
+    "06歩鳥03.bin",
+    "06歩鳥04.bin",
+    "06歩鳥05.bin",
+    "06歩鳥06.bin"
+  ],
+  "only_helper_69_changed": true,
+  "full_zip_inventory_verified": true,
+  "release_asset_hashes_verified": true,
+  "game_launched": false
+}

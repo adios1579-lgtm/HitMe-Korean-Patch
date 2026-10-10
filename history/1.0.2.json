@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "app_id": "hitme-ko",
+  "version": "1.0.2",
+  "base_version": "1.0.0",
+  "files": [
+    {
+      "path": "Config.pac",
+      "size": 145584,
+      "sha256": "9449514c415215c7c56f2ed1ec7b8bc2cee464941a5ae70909566b4ec58243fd"
+    },
+    {
+      "path": "HitMe.exe",
+      "size": 2973184,
+      "sha256": "e3bf14fcfe4332172ffedd315d506bec4ab1000b503fb731e96f81e509801b0e"
+    },
+    {
+      "path": "Movie/Opening.dat",
+      "size": 164864000,
+      "sha256": "deb1612d43defc40af3add6c833cc81b6c783d02db6a8f8f0c3030392aa9cfb3"
+    },
+    {
+      "path": "Update.pac",
+      "size": 385663229,
+      "sha256": "c66ea73770c39c6b249d46f5d7090022d630403f53db311226ac402a3e4e2289"
+    },
+    {
+      "path": "fonts/NotoSansKR-Regular.otf",
+      "size": 2227620,
+      "sha256": "9b44892c93ef4ce72b6844b992994f7c687bcfc51f277e95facb9efd4c534310"
+    },
+    {
+      "path": "fonts/OFL.txt",
+      "size": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "updates/HitMeUpdater.dll",
+      "size": 37888,
+      "sha256": "43ed9fa54a5d2d19cb494dfc2b1f6b7d13a7880d7c7672df062f1e3b33ddaaf7"
+    },
+    {
+      "path": "updates/base-requirements.json",
+      "size": 1691,
+      "sha256": "7ee78564453003dc18aba32d18fc46ea74efe2ad22ffed53ac967c114dce5325"
+    },
+    {
+      "path": "사용설명서.md",
+      "size": 4042,
+      "sha256": "6280987b0e5681532f9c616eb6673cfc2dc9f7f42c55456da6ab269a2037e92b"
+    }
+  ]
+}
