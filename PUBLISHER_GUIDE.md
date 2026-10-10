@@ -39,4 +39,6 @@ py -3.11 -X utf8 build_release.py update --version 1.0.1 --notes "수정 사항"
 
 ## 공개 배포 경로 실증
 
-PUBLIC_UPGRADE_TEST.json: 공개1.0.0엔진으로공개1.0.1 manifest/ZIP을받아격리설치에적용,실제DLL교체·새엔진조회·본문PAC/합성세이브보존·재다운로드0 확인. 실제게임실행시험은아니다.
+PUBLIC_UPGRADE_TEST.json: 공개 1.0.1 엔진으로 공개 1.0.2 manifest/ZIP 두 묶음을 받아 격리 설치에 적용했다. Update.pac과 DLL 교체, 새 엔진의 최신 버전 조회, 나머지 파일 및 합성 세이브 보존, 재다운로드 0을 확인했다. 이전 1.0.0→1.0.1 시험도 함께 보존한다. 실제 게임 실행 시험은 아니다.
+
+1.0.2의 PAC 변경은 호토리 6개 장의 도움 함수 69뿐이다. 이식 소스와 번역 후보 재생성 경로에 반영했고, 소스에서 기존 실기 수정본과 동일한 바이트를 재현했다. RELEASE_1.0.2_CHECKS.json과 LOCAL_UPGRADE_TEST.json도 참고한다.
