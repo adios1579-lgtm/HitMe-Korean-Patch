@@ -204,9 +204,10 @@ namespace HitMeUpdate {
    }
    foreach(var n in m.deleted) {string dest=Safe(root,n);Item previous;if(File.Exists(dest)){if(!old.TryGetValue(n,out previous))continue;if(Hash(dest)!=previous.sha256)throw new Exception("개별 수정 파일을 삭제하지 않았습니다: "+n);removals.Add(n);}}
    var packagesNeeded=m.packages.Where(p=>changed.Any(f=>f.package==p.name)).ToList();
-   long backups=changed.Select(f=>f.path).Concat(removals).Where(n=>File.Exists(Safe(root,n))).Sum(n=>new FileInfo(Safe(root,n)).Length);
+   var priorSizes=changed.Select(f=>f.path).Concat(removals).Where(n=>File.Exists(Safe(root,n))).Select(n=>new FileInfo(Safe(root,n)).Length).ToList();
+   long backups=priorSizes.Sum();
    long expanded=m.files.Where(f=>packagesNeeded.Any(p=>p.name==f.package)).Sum(f=>f.size);
-   long tempMax=changed.Count==0?0:changed.Max(f=>f.size);
+   long tempMax=Math.Max(changed.Count==0?0:changed.Max(f=>f.size),priorSizes.Count==0?0:priorSizes.Max());
    long needed=checked(backups+expanded+tempMax+packagesNeeded.Sum(p=>p.size)+32L*1024*1024);
    if(new DriveInfo(Path.GetPathRoot(Path.GetFullPath(root))).AvailableFreeSpace<needed)throw new Exception("업데이트에 필요한 임시 공간이 부족합니다.");
    var staged=new Dictionary<string,string>(StringComparer.OrdinalIgnoreCase);
