@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "app_id": "hitme-ko",
+  "files": [
+    {
+      "path": "Bgm.pac",
+      "size": 30416176,
+      "sha256": "3702e0a0b6909a438854b8131a960675fdab8885cf50e9cde87bee1712f33afd"
+    },
+    {
+      "path": "Face.pac",
+      "size": 762288142,
+      "sha256": "d9ad225757501e755ca3a1d0542923aa1f466d5f46ce9416e09c99e8606402d4"
+    },
+    {
+      "path": "Script.pac",
+      "size": 5339521,
+      "sha256": "fb714790a73c3bef54e0d3ba892bd18ec9b3518f8581f1bc9793255abf51da49"
+    },
+    {
+      "path": "Se.pac",
+      "size": 9202787,
+      "sha256": "7eeabf9425abfa2b3c955e0c32b1807238f5b8700469200a46229e94890d010c"
+    },
+    {
+      "path": "Stand.pac",
+      "size": 1148736950,
+      "sha256": "4570067309f362e66dd7565fe3419820477546fe09907585eece672d0b395ea0"
+    },
+    {
+      "path": "System.pac",
+      "size": 221122972,
+      "sha256": "2286573e89aac40adf62f56232d1dd65dce1d5cff8ce104c2d98782ed99a23f1"
+    },
+    {
+      "path": "Thumbnail.pac",
+      "size": 49032519,
+      "sha256": "df80f696aa50ab558fa451142ca24c4d28b8127017de4390f711761c82d9d8c0"
+    },
+    {
+      "path": "Visual.pac",
+      "size": 1022804241,
+      "sha256": "9e6121389b4417e4019c325b8cfec5567954eb6ed1466e4f49ccbbb582506ad1"
+    },
+    {
+      "path": "Voice.pac",
+      "size": 570245069,
+      "sha256": "d0f102b4d5a781e570218d33ef90631792925874209231fcb15f0c0dc0785282"
+    },
+    {
+      "path": "AuthTool.exe",
+      "size": 398336,
+      "sha256": "37d7f05fdd1ce576bd685934a4b10b7f2b71732b240d381ece8f0361088f98c7"
+    }
+  ],
+  "supported_edition": "Japanese Windows PC installation; exact original archive hashes required."
+}

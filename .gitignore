@@ -1,0 +1,7 @@
+build-config.local.json
+tools/
+release/
+__pycache__/
+BUILD_STATUS.json
+PUBLICATION.json
+*.log

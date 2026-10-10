@@ -1,0 +1,6 @@
+PASS: bundled font family Noto Sans KR
+PASS: font registry value counts unchanged (user=82, machine=186)
+PASS: synthetic game executable launched with exact working directory
+PASS: running HitMe fixture detection; other folder excluded
+No actual game launched; no persistent font installation.
+

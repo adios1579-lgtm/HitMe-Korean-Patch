@@ -1,0 +1,2 @@
+PASS: extracted full patch inventory and original game requirements
+No game process launched.
